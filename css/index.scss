@@ -153,6 +153,62 @@ main#mc-home {
 	}
 }
 
+footer {
+	width: 100%;
+	margin-top: 1rem;
+
+	#mc-download-app {
+		background-color: #ffbc0d;
+		display: flex;
+		flex-direction: row;
+		padding: 1rem 5rem;
+		gap: 3rem;
+
+		div {
+			flex: 1 1 0px;
+			text-align: center;
+		}
+
+		.btn {
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+
+	#mc-follow {
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+		margin: 0 auto;
+		width: min-content;
+		align-items: center;
+
+		h1 {
+			display: inline;
+		}
+
+		img {
+			width: 2rem;
+		}
+	}
+
+	hr {
+		border-bottom: 1px solid #555452;
+		margin: 1rem 5rem;
+	}
+
+	#mc-footer-w-apps {
+		margin: 0 5rem;
+		gap: 1rem;
+		align-items: center;
+
+		p {
+			text-align: right;
+			flex-grow: 1;
+		}
+	}
+}
+
 .all {
 	&-gray {
 		color: #555452;
