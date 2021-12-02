@@ -239,3 +239,19 @@ h2 {
 	color: #525252;
 	font-weight: 700;
 }
+
+.flex {
+	&-col {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-row {
+		display: flex;
+		flex-direction: row;
+	}
+
+	&-all {
+		flex-grow: 1;
+	}
+}
